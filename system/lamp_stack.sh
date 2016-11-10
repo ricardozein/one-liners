@@ -31,7 +31,7 @@ elif [[ $phpversion == "both" ]]; then
 
 	echo -e "Enabling PHP5.6";
 	sudo a2enmod php5.6;
-	sudo a2disnmod php7.0;
+	sudo a2dismod php7.0;
 	echo -e "Done";
 fi;
 
