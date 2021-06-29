@@ -1,0 +1,1 @@
+ffmpeg -i video_file.mp4 -vf "select=eq(n\,0)" -vframes 1 first-frame.jpg
